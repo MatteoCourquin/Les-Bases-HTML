@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon premier site</title>
+  </head>
+
+  <body>
+
+    <p>Voici du texte</p>
+    <!-- !!!!! Un seul H1 par page !!!!! -->
+    <h1>Voici mon titre</h1>
+    <h2>Titre</h2>
+    <h3>Titre</h3>
+    <h4>Titre</h4>
+    <h5>Titre</h5>
+    <h6>Titre</h6>
+
+    <!-- balises fermantes -->
+    <br />
+    <hr />
+    <img
+      src="https://images.unsplash.com/photo-1624916888351-a18f955a1b93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+      alt="paysage a la neige"
+      width="500px"
+    />
+
+    <!-- elements block (prend toute la ligne et se dispose les uns en dessous des autres) -->
+    <div></div>
+    <p></p>
+
+    <!-- elements inline (s'ajuste a sa taille et se dispose les uns après les autres) -->
+    <span></span>
+    <a></a>
+    <img />
+
+    <hr />
+
+    <!-- TYPES DE LISTES -->
+
+    <!-- liste désordonnée -->
+    <ul>
+      <li>Café</li>
+      <li>Café</li>
+      <li>Café</li>
+    </ul>
+
+    <!-- liste ordonnée -->
+    <ol>
+      <li>Thé</li>
+      <li>Thé</li>
+      <li>Thé</li>
+    </ol>
+
+    <!-- liste de déscription -->
+    <dl>
+      <dt>Sports</dt>
+      <dd>VTT</dd>
+      <dd>Roller</dd>
+      <dd>F1</dd>
+    </dl>
+
+    <hr />
+
+    <!-- GÉRER DU TEXTE  -->
+
+    <!-- Guillemets -->
+    <p>
+      Lorem ipsum | dolor sit amet, <q>consectetur</q> adipisicing elit. Error,
+      rem!
+    </p>
+
+    <!-- abréviation -->
+    <p>
+      Lorem ipsum | dolor sit amet,
+      <abbr title="Raccourci"> adipisicing</abbr> elit. Error, rem!
+    </p>
+
+    <!-- adresse -->
+    <address>
+      18 rue des arts, <br />
+      92700, <br />
+      Colombes
+    </address>
+
+    <!-- texte gras -->
+    <b>Texte en gras</b> <br />
+    <strong>Texte en gras et important (référencement)</strong>
+
+    <!-- texte italique -->
+    <i>Texte en italique</i> <br />
+    <em>Texte en italique et important (référencement)</em>
+
+    <!-- texte rétréci -->
+    <h1>Lorem <small>| dolor sit</small> amet.</h1>
+
+    <!-- texte barré -->
+    <p>Lorem <del>ipsum | dolor</del> sit amet.</p>
+
+    <!-- texte souligné -->
+    <p>Lorem <ins>ipsum | dolor</ins> sit amet.</p>
+
+    <!-- texte surligné -->
+    <p>Lorem <mark>ipsum | dolor</mark> sit amet.</p>
+
+    <hr />
+
+    <!-- FORMULAIRES -->
+    <form action="" method="">
+      <label for="prenom">Prénom :</label> <br />
+      <input type="text" id="prenom" name="prenom" placeholder="Votre Prénom" />
+
+      <br /><br />
+
+      <label for="name">Nom :</label> <br />
+      <input type="text" id="name" name="name" placeholder="Votre Nom" />
+
+      <br /><br />
+
+      <textarea name="message"></textarea>
+
+      <br /><br />
+
+      <select name="pays" id="pays">
+        <option value=" "></option>
+        <option value="fr">France</option>
+        <option value="Al">Allemagne</option>
+        <option value="It">Italie</option>
+      </select>
+
+      <br /><br />
+
+      <input list="pays2" />
+      <datalist id="pays2">
+        <option value="France"></option>
+        <option value="Allemagne"></option>
+        <option value="Italie"></option>
+      </datalist>
+
+      <br /><br />
+
+      <button>Envoyer</button>
+    </form>
+
+    <hr />
+
+    <!-- Entités HTML -->
+
+    <!-- les espaces -->
+    <p>
+      Lorem ipsum &ensp; (1 espace) | &emsp; (4 espaces) | dolor sit amet
+      consectetur, adipisicing elit. Porro, iure.
+    </p>
+
+    <!-- texte comme il est écrit -->
+    <pre>
+Salut, 
+
+      Je vais a la ligne!
+
+      espace      espace.
+    </pre>
+
+    <!-- les symboles -->
+
+    <h3>Toutes les entités HTML :</h3>
+    <a href="https://www.freeformatter.com/html-entities.html" target="_blank"
+      >Entités HTML</a
+    >
+    &copy; (copyright)
+
+    <br /><br />
+
+    <!-- les emojis -->
+
+    <h3>Tous les emojis HTML :</h3>
+    <a href="https://html-css-js.com/html/character-codes/" target="_blank"
+      >Emojis HTML</a
+    >
+    &#9924; (copyright)
+
+    <hr />
+
+    <!-- LES MÉDIAS -->
+
+    <!-- image -->
+    <img
+      src="ressources/image.jpeg"
+      alt="photo de montagne eneigée"
+      width="500px"
+    />
+
+    <!-- video -->
+    <video
+      src="ressources/video.mp4"
+      controls
+      autoplay
+      loop
+      muted
+      width="500px"
+    ></video>
+
+    <audio src="ressources/audio.mp3" controls loop></audio>
+  </body>
+</html>

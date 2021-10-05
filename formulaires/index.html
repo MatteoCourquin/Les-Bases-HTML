@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaires</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <form action="post">
+
+        <fieldset> <!-- Entourer les "radio" qui correspondent a la meme catégories -->
+
+            <br>
+            
+            <legend>Votre couleur préferé ?</legend> <!-- Titre -->
+            
+            <label for="rouge">Rouge</label>
+            <input type="radio" id="rouge" name="couleurs" value="rouge">
+            
+            <label for="bleu">Bleu</label>
+            <input type="radio" id="bleu" name="couleurs" value="bleu">
+            
+            <label for="vert">Vert</label>
+            <input type="radio" id="vert" name="couleurs" value="vert">
+            
+        </fieldset>
+        
+        <br>
+
+        <label for="age">Age</label>
+        <input type="text" id="age">
+
+        <br>
+
+        <label for="taille">Taille</label>
+        <select name="taille" id="taille">
+            <option>Choisissez une taille</option>
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+        </select>
+
+    </form>
+
+    <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/text">Documentation des input</a>
+    
+</body>
+</html>
